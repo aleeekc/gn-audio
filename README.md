@@ -1,3 +1,4 @@
+```
 |
 |-.devcontainer // Run a docker image with all tools needed (i.e. arm build chain) online
 |
@@ -13,5 +14,7 @@
 |- seed_jenkins.dsl // Jenkins seed job for this repository
 |- CmakeLists.txt // example cmake build
 |- toolchain.cmake // example cmake toolstain
+```
 
+Inspiration taken from:
 https://dev.to/pgradot/cmake-on-stm32-the-beginning-3766
