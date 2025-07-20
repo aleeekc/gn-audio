@@ -1,0 +1,30 @@
+{
+  "name": "stm32-devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile",
+  },
+
+  // Install features. Type 'feature' in the VS Code command palette for a full list.
+  "features": {
+    "sshd": "latest",
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        // allow Codespaces to pull from separate repo when user has access
+        "github/docs-early-access": {
+          "permissions": {
+            "contents": "write"
+          }
+        }
+      }
+    }
+  },
+
+  "hostRequirements": {
+    "memory": "16gb",
+    "cpus": "4"
+  }
+}

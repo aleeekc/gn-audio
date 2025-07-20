@@ -1,0 +1,1 @@
+# STM32 Ide usually can auto-generate the Makefiles.
